@@ -21,27 +21,37 @@
   	</header>
 
   	<main class="container">
-  		<p class="index-photo">
-        <img src="img/sedona-main.jpg" width="368" height="153" alt="Фото Седоны">
-        <img src="img/main-image-decor" alt="Декоративный элемент"  width="368" height="20" class="decor"> 
-      </p>
-      <h1>Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
-      <h2>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
+  		<h1 class="visually-hidden">Сайт о Седоне</h1>    
       
+      <section class="greetings">
+        <h2 class="visually-hidden">Приветствие</h2>
+        <p class="index-photo">
+          <img src="img/sedona-text-main.jpg" width="368" height="153" alt="Седона">
+        </p>
+        <p>Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      </section>
+
       <section class="reasons">
+        <h2 class="visually-hidden">5 причин посетить Седону</h2>
         <!-- Этот элемент пока не размечается --> 
       </section>
       
       <section class="appointment">
+        <h2 class="visually-hidden">Запись на посещение</h2>
         <b>Заинтересовались?</b>
         <p>Укажите предполагаемые даты поездки, <br>
         и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <p>Поиск гостиницы в Седоне</p>
-        <p class="appointment-items">Дата Заезда: 24 апреля 2017</p>
+        <button class="hotels-search">Поиск гостиницы в Седоне</button>
+        
+        <!-- Здесь будет форма -->
+
+        <!-- <p class="appointment-items">Дата Заезда: 24 апреля 2017</p>
         <p class="appointment-items">Дата выезда: 4 июля 2017</p>
         <p class="appointment-items">Взрослые: 2</p>
         <p class="appointment-items">Дети: 0</p>
-        <button class="button-appointment">Найти</button>
+        <button class="button-appointment">Найти</button> -->
+
       </section>
 
       <section class="map">
@@ -51,14 +61,20 @@
     </main>
 
     <footer class="main-footer">
-      <p class="hashtag">#VISITSEDONA</p>
+      <p class="hashtag">
+        <a href="">#VISITSEDONA</a>
+      </p>
       <ul class="social">
         <li><a href="#">Твиттер</a></li>
         <li><a href="#">Фейсбук</a></li>
         <li><a href="#">Youtube</a></li>
       </ul>
       <p class="copyright">
-        <img src="img/copyright-logo.jpg" alt="Создано HTMLAcademy">
+        <a href="https://htmlacademy.ru/intensive/htmlcss">
+          <span>Website By</span>
+          <img src="img/copyright-logo.jpg" alt="Создано HTMLAcademy">
+        </a>
+        
       </p>
     </footer>
 
